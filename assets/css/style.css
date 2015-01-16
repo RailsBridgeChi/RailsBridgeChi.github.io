@@ -471,8 +471,8 @@ html {
 }
 /* - Blog title and description - */
 .blog-title {
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 66px;
+  line-height: 66px;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
@@ -483,7 +483,8 @@ html {
   text-transform: none;
   padding-top: 12px;
   margin-top: 12px;
-  font-size: 18px;
+  font-size: 24px;
+  width: ;
 }
 #main {
   position: relative;
