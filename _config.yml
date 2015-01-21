@@ -48,15 +48,15 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: /
+    url: /blog
     external: false
     icon: home
   - title: <i class="icon-book"></i> Documentation
-    url: /documentation
+    url: /blog/documentation
   - title: Categories
-    url: /categories
+    url: /blog/categories
   - title: Tags
-    url: /tags
+    url: /blog/tags
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
@@ -85,8 +85,7 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://railsbridgechi.github.io/blog'
   media: 'images'
   metadata:
     _posts:
