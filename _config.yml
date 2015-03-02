@@ -86,7 +86,6 @@ kramdown:
     coderay_css: class
 
 prose:
-  rooturl: '/'
   siteurl: 'http://railsbridgechi.github.io/'
   media: 'images'
   metadata:
