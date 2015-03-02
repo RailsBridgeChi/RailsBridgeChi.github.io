@@ -30,11 +30,12 @@ owner:
   twitter:        RailsBridgeChi
   facebook:       RailsBridgeChi
   github:         RailsBridgeChi
+  tumblr:         railsbridgechicago
   stackexchange:  
   linkedin:       
   instagram:      
   flickr:         
-  tumblr:         railsbridgechicago
+
 
   # For Google Authorship https://plus.google.com/authorship
   # google_plus:    https://plus.google.com/u/0/102602916593522619858
@@ -85,8 +86,8 @@ kramdown:
     coderay_css: class
 
 prose:
-  rooturl: 'index'
-  siteurl: 'http://railsbridgechi.github.io/blog'
+  rooturl: '/'
+  siteurl: 'http://railsbridgechi.github.io/'
   media: 'images'
   metadata:
     _posts:
