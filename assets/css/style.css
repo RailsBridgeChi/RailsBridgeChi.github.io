@@ -78,11 +78,12 @@ h6 {
 }
 /* - Links - */
 a {
-  text-decoration: none;
+    text-decoration: none;
+    font-weight: 600;
 }
 @include transition(color 0.2s);
 a:hover {
-  text-decoration: none;
+    font-weight: 700;
 }
 .more-link {
   line-height: 18px;
@@ -381,12 +382,12 @@ h6,
   color: #1e1e1f;
 }
 a {
-  color: #807f83;
-  border-color: #807f83;
+  color: #900;
+
 }
 a:hover {
-  color: #67666a;
-  border-color: #67666a;
+  color: #900;
+
 }
 blockquote:before {
   background: #57ad68;
