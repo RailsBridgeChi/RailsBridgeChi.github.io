@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<!--
+====================================================
+    __  ____  ______________  _______ ___    __ 
+   / / / /  |/  / ____/   \ \/ / ___//   |  / / 
+  / /_/ / /|_/ / /_  / /| |\  /\__ \/ /| | / /  
+ / __  / /  / / __/ / ___ |/ /___/ / ___ |/ /___
+/_/ /_/_/  /_/_/   /_/  |_/_//____/_/  |_/_____/
+                                                     
+====================================================
+Owner Name: Hossain Mohammad Faysal
+Profile: https://www.facebook.com/hmfaysal
+Version: 1.1
+Description: Awesome dude, awesome life
+====================================================
+-->
+<head>
+<meta charset="utf-8">
+<title>Hello RailsBridge &#8211; RailsBridge Chicago</title>
+<meta name="description" content="Let's Do This Thing">
+<meta name="keywords" content="blogging, jekyll, railsbridge">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/railsbridge-chicago-logo.png">
+<meta name="twitter:title" content="Hello RailsBridge">
+<meta name="twitter:description" content="Let's Do This Thing">
+<meta name="twitter:creator" content="@RailsBridgeChi">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello RailsBridge">
+<meta property="og:description" content="Let's Do This Thing">
+<meta property="og:url" content="/news/first-commit">
+<meta property="og:site_name" content="RailsBridge Chicago">
+<meta property="og:image" content="/images/cover-photo.jpg">
+
+
+
+
+
+<link rel="canonical" href="/news/first-commit">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="RailsBridge Chicago Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search...">
+        <i class="icon-remove-sign"></i>
+        <ul class="search-results post-list"></ul><!-- /.search-results -->
+    </div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+<body class="post-template" itemscope itemtype="http://schema.org/WebPage">  
+<div id="fade"></div>
+<a id="slide" class="animated fade"></a>
+<aside id="sidebar">
+    <nav id="navigation">
+    <h2>MENU</h2>
+    <hr>
+
+            <li>
+                    <a href="/blog">Home</a>
+                 </li>
+
+            <li>
+                    <a href="/blog/documentation"><i class="icon-book"></i> Documentation</a>
+                 </li>
+
+            <li>
+                    <a href="/blog/categories">Categories</a>
+                 </li>
+
+            <li>
+                    <a href="/blog/tags">Tags</a>
+                 </li>
+            
+           <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+    </nav>
+    
+    
+</aside>
+
+<header id="masthead" class="blog-background overlay align-center align-middle animated from-bottom"  style="background-image: url(/images/cover-photo.jpg)" itemscope itemtype="http://schema.org/Organization">
+
+
+    <button class="menu-button animated fade dosearch">
+        <i class="icon-search"></i>
+    </button>
+
+
+    <div class="inner">
+        <div class="container">
+            <a class="brand light" href="" role="banner" itemprop="url">
+
+                <img itemprop="logo" src="/images/railsbridge-chicago-logo.png" alt="RailsBridge Chicago Logo" />
+
+            <h1 class="blog-title light" itemprop="name">
+                RailsBridge Chicago
+            </h1>
+                
+            </a>
+            <h2 class="blog-description light bordered bordered-top" itemprop="description">
+                Let's Fire up the Engines
+            </h2>
+        </div>
+    </div>
+    
+    
+    <div class="decor-wrapper">
+        <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+            <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+
+            <path class="medium left" d="M0 100 L50 50 L0 33.3" fill="rgba(255,255,255, .3)"></path>
+            <path class="medium right" d="M100 100 L50 50 L100 33.3" fill="rgba(255,255,255, .3)"></path>
+
+            <path class="small left" d="M0 100 L50 50 L0 66.6" fill="rgba(255,255,255, .5)"></path>
+            <path class="small right" d="M100 100 L50 50 L100 66.6" fill="rgba(255,255,255, .5)"></path>
+
+            <path d="M0 99.9 L50 49.9 L100 99.9 L0 99.9" fill="rgba(255,255,255, 1)"></path>
+
+            <path d="M48 52 L50 49 L52 52 L48 52" fill="rgba(255,255,255, 1)"></path>
+
+        </svg>
+    </div>
+    
+</header>
+<div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
+    <div class="container">
+        <div class="row">
+            <article class="post col-md-8 col-md-offset-2 hentry" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            
+            
+            
+            
+            
+                    <header class="post-header entry-header">
+                    <div class="cursive">this post is featured</div>
+                        
+                        <h1 class="post-title text-center hyper lighter bordered-bottom entry-title" itemprop="headline">Hello RailsBridge</h1>
+                        
+                        <div class="cursive" style="color: #000; font-style:italic;">Let's Do This Thing</div>
+                        <div class="post-info text-center small">
+                            <span class="entry-date date published updated"><time datetime="2015-01-16T00:00:00-06:00" class="post-time" itemprop="datePublished">16 Jan 2015</time><span>
+                            in <span class="post-tags"><a href="/categories/index.html#news" data-toggle="tooltip" title="Other posts from the News category" rel="tag">News</a></span>&nbsp;<span class="post-tags"><i class="icon-time"></i>&nbsp;<span class="time">1.595</span> minutes read</span>
+                        </div>
+                    </header>
+                    <div class="post-body bordered-bottom" itemprop="description">
+                        
+                        <blockquote>
+  <p>"It’s all happening!"
+<small><cite title="Plato">Me</cite></small></p>
+</blockquote>
+
+<p>What’s up y’all, we have a blooooorg</p>
+
+<p>I am writing some stuff here.  It’s great!  Commence the “Whedon Ipsum”:</p>
+
+<!-- start whedon ipsum -->
+<p>It’s a real burn, being right so often. I’ve got four brothers, none of them Democrats. We need to save Buffy from Hansel and Gretel. I was actually at Woodstock. That was a weird gig. I fed off a flower person, and then I spent the next six hours watching my hand move. Seems odd you’d name your ship after a battle you were on the wrong side of. And what’s with all the carrots?</p>
+
+<p>Last month he’s the freak with jicama breath who waxes his back. First of all, Feng Shui up the yin yang, also I designed parts of it but I did not design the stone cold foxes in the small clothes and the ample massage facilities. Why can’t you just masturbate like the rest of us? Bunnies! Bunnies! It must be Bunnies! With any luck, he’ll poke the wrong one and end up in an alternative dimension inhabited by a fifty-foot Giles that squishes annoying teeny pirates. It’s just a long cultural tradition of raging insincerity. It has nothing to do with me. Some terrifying space monkeys maybe got loose?</p>
+
+<p>We don’t have wings, we just skate around with perfect hair fighting crime. In the time of gods and monsters, what is the worth of a man? So I skipped intro to evil or whatever, but how is it that I get an F, when this guy that we’re reading, Chauncey, can’t even spell? The gentlemen are coming by. How did your brain even learn human speech? I’m just so curious. Say Skywalker, and I smack ya. It’s funny how the Earth never opens up and swallows you when you want it to. You will keep a civil tongue in this house or we’ll put your tongue in a stew.
+<!-- please do not remove this line --></p>
+
+<div style="display:none;">
+<a href="http://www.commercekitchen.com">ipsum generator</a>
+</div>
+
+<!-- end whedon ipsum code -->
+
+                        <br>
+                    
+                    
+                    <div class="entry-tags text-center">
+                    
+                        <i class="icon-tags"></i>&nbsp;Tagged with <a href="/tags/index.html#blogging" data-toggle="tooltip" title="Posts tagged with blogging" rel="tag">blogging</a>&nbsp;&bull;&nbsp;<a href="/tags/index.html#jekyll" data-toggle="tooltip" title="Posts tagged with jekyll" rel="tag">jekyll</a>&nbsp;&bull;&nbsp;<a href="/tags/index.html#railsbridge" data-toggle="tooltip" title="Posts tagged with railsbridge" rel="tag">railsbridge</a>
+                    
+                    </div>
+                    
+                    </div>
+        </div>
+                    <footer class="post-footer entry-meta">
+                        <div class="post-share text-center">
+    <p class="light small">
+        Share this post
+    </p>
+    <ul class="social-mini">
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=&quot;Hello RailsBridge&quot;%20/news/first-commit%20via%20&#64;RailsBridgeChi"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip" title="Share on Twitter" itemprop="Twitter">
+                <i class="icon-twitter"></i>
+            </a>
+        </li>
+        <li>
+            <a  href="https://www.facebook.com/sharer/sharer.php?u=/news/first-commit"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
+                <i class="icon-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="https://plus.google.com/share?url=/news/first-commit"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
+                <i class="icon-google-plus"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+                        <div class="post-author text-center">                       
+	        <img src="/images/railsbridge-logo.png" alt="RailsBridge Chicago's photo" itemprop="image" class="post-avatar img-circle img-responsive"/>    
+	    <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="/about" title="About RailsBridge Chicago" itemprop="url">RailsBridge Chicago</a></span></h4>
+	    <p>RailsBridge Chicago provides free (and fun!) Ruby on Rails workshops for women</p>
+</div> 
+                        
+                    </footer>
+            </article>
+    </div>
+</div>
+
+<footer id="footer"  class="blog-background overlay text-center align-middle animated from-top" style="background-image: url(/images/cover-photo.jpg)" >
+
+
+    <div class="inner">
+        <div class="container">
+
+            <ul class="social-icons">
+            <li>
+                <a href="http://twitter.com/RailsBridgeChi" data-toggle="tooltip" title="RailsBridge Chicago on Twitter" target="_blank">
+                    <i class="icon-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://facebook.com/RailsBridgeChi" data-toggle="tooltip" title="RailsBridge Chicago on Facebook" target="_blank">
+                    <i class="icon-facebook"></i>
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="http://github.com/RailsBridgeChi" data-toggle="tooltip" title="RailsBridge Chicago on Github" target="_blank">
+                    <i class="icon-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://railsbridgechicago.tumblr.com/" data-toggle="tooltip" title="RailsBridge Chicago on Tumblr" target="_blank">
+                    <i class="icon-tumblr"></i>
+                </a>
+            </li>
+
+        </ul>
+            <div>
+                <a href="/about/">RailsBridge Chicago</a> &copy; 2015 &bull; All rights reserved.
+            </div>
+            <ul class="menu-items">
+            
+            <li>
+                
+                    <a href="/blog"><i class="icon-home"></i></a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li>
+                
+                    <a href="/blog/documentation"><i class="icon-book"></i> Documentation</a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li>
+                
+                    <a href="/blog/categories">Categories</a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li>
+                
+                    <a href="/blog/tags">Tags</a>&nbsp;&bull;
+                 
+            </li>
+            
+            <li><a href="/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+        </ul>
+        </div>
+    </div>
+    
+        <div class="decor-wrapper">
+            <svg id="footer-decor" class="decor top" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">
+
+                <path class="large left" d="M0 0 L50 50 L0 100" fill="rgba(255,255,255, .1)"></path>
+                <path class="large right" d="M100 0 L50 50 L100 100" fill="rgba(255,255,255, .1)"></path>
+
+                <path class="medium left" d="M0 0 L50 50 L0 66.6" fill="rgba(255,255,255, .3)"></path>
+                <path class="medium right" d="M100 0 L50 50 L100 66.6" fill="rgba(255,255,255, .3)"></path>
+
+                <path class="small left" d="M0 0 L50 50 L0 33.3" fill="rgba(255,255,255, .5)"></path>
+                <path class="small right" d="M100 0 L50 50 L100 33.3" fill="rgba(255,255,255, .5)"></path>
+
+                <path d="M0 0 L50 50 L100 0 L0 0" fill="rgba(255,255,255, 1)"></path>
+
+                <path d="M48 48 L50 51 L52 48 L48 48" fill="rgba(255,255,255, 1)"></path>
+
+            </svg>
+        </div>
+    
+</footer>
+
+
+    
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="/assets/js/waypoints.min.js"></script>
+<script type="text/javascript" src="/assets/js/script.js"></script>
+<script type='text/javascript'>console.log("HMFaysal Omega Theme Version 2.0");</script>
+<script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
+<script type='text/javascript'>$(document).ready(function(){$(".time").text(function(a,b){return Math.round(parseFloat(b))})});</script>
+
+<script type="text/javascript">
+
+/*      Slides       */
+
+$("a#slide").click(function(){
+    $("#sidebar,body,a#slide,#fade").addClass("slide")
+});
+
+$("#fade,#header,#posts-container").click(function(){
+    $("#sidebar,body,a#slide,#fade").removeClass("slide")
+});
+
+$("a#click-filter").click(function(){
+    $("#slide-filter").slideToggle("medium");
+    $("#slide-pages").slideOut("medium");
+});
+
+$("a#click-pages").click(function(){
+    $("#slide-pages").slideToggle("medium");
+    $("#slide-filter").slideOut("medium");
+});
+
+/*      End-Slides      */
+
+</script>
+
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').simpleJekyllSearch({
+          jsonFile : '/search.json',
+          searchResults : '.search-results',
+          template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".icon-remove-sign"),
+          searchform: $(".search-form"),
+          canvas: $("body"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('search-overlay');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('search-overlay');
+    });
+  })( jQuery, window );
+</script>
+
+
+ 
+</body>
+</html>

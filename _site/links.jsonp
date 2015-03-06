@@ -1,0 +1,8 @@
+callback([
+
+  {
+    "text": "Hello RailsBridge",
+    "href": "/news/first-commit"
+  } 
+
+])

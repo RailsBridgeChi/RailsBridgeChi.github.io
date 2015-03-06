@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     
+    <url>
+        <loc>/blog</loc>
+    </url> 
+    <url>
+        <loc>/blog/documentation</loc>
+    </url> 
+    <url>
+        <loc>/blog/categories</loc>
+    </url> 
+    <url>
+        <loc>/blog/tags</loc>
+    </url>
+    
+    
+    <url>
+        <loc>/news/first-commit</loc>
+    </url>
+    
+</urlset>
