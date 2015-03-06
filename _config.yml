@@ -54,10 +54,6 @@ links:
     url: /
     external: false
     icon: home
-  - title: Categories
-    url: /categories
-  - title: Tags
-    url: /tags
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
@@ -85,7 +81,7 @@ kramdown:
     coderay_css: class
 
 prose:
-  siteurl: 'http://railsbridgechi.github.io'
+  siteurl: 'http://railsbridgechi.com'
   media: 'images'
   metadata:
     _posts:
