@@ -33,6 +33,12 @@
                     <i class="icon-github"></i>
                 </a>
             </li>{% endif %}
+            {% if site.owner.tumblr %}<li>
+                <a href="http://{{site.owner.tumblr}}.tumblr.com/" data-toggle="tooltip" title="{{ site.owner.name}} on Tumblr" target="_blank">
+                    <i class="icon-tumblr"></i>
+                </a>
+            </li>{% endif %}
+
         </ul>
             <div>
                 <a href="{{ site.url }}/about/">{{ site.owner.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved

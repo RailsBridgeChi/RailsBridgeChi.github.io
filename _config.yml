@@ -1,6 +1,6 @@
 title:            RailsBridge Chicago
 description:      Free (and fun!) Ruby on Rails workshops for women. Get it, girls!
-logo:             
+logo:             railsbridge-chicago-logo.png
 disqus_shortname: RailsBridgeChi
 # Assign a default image for your site's header and footer
 default_bg:       cover-photo.jpg
@@ -28,6 +28,7 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    RailsBridge Chicago provides free (and fun!) Ruby on Rails workshops for women
   # Social networking links used in footer. Update and remove as you like.
+  tumblr:         railsbridgechicago
   twitter:        RailsBridgeChi
   facebook:       RailsBridgeChi
   github:         RailsBridgeChi
@@ -35,7 +36,8 @@ owner:
   linkedin:       
   instagram:      
   flickr:         
-  tumblr:         
+
+
   # For Google Authorship https://plus.google.com/authorship
   # google_plus:    https://plus.google.com/u/0/102602916593522619858
 
@@ -83,7 +85,6 @@ kramdown:
     coderay_css: class
 
 prose:
-  rooturl: '_posts'
   siteurl: 'http://railsbridgechi.github.io'
   media: 'images'
   metadata:
