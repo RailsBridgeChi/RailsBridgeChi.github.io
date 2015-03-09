@@ -33,8 +33,8 @@
 
 
             <h1 class="blog-title light" itemprop="name">
-              {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
-              {% else %}
+              {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
+              {% elsif site.title }%
               {{ site.title }}
               {% endif %}
             </h1>
