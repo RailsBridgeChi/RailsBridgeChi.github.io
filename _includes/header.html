@@ -29,9 +29,6 @@
     <div class="inner">
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
-
-
-
             <h1 class="blog-title light" itemprop="name">
               {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
               {% elsif site.title }%
@@ -49,11 +46,11 @@
     <div class="inner">
         <div class="container">
             <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
-
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />{% endif %}
-
             <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
+              {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
+              {% elsif site.title }%
+              {{ site.title }}
+              {% endif %}
             </h1>
                 
             </a>
