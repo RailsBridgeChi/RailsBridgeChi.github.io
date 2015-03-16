@@ -528,8 +528,8 @@ html {
   margin-bottom: 72px;
 }
 .post-template .post-body {
-  padding-bottom: 36px;
-  margin-bottom: 24px;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
 }
 .post-body img {
   max-width: 100%;
@@ -546,10 +546,15 @@ html {
 /* - Post Share - */
 .post-share {
   margin-bottom: 48px;
+  clear: both;
+}
+
+.post-share p {
+  margin-bottom: 10px;
 }
 /* - Post Author - */
 .post-author {
-  margin-bottom: 72px;
+  margin-bottom: 25px;
 }
 .post-author h4 {
   margin-top: 0;

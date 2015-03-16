@@ -27,6 +27,7 @@ owner:
   email:          railsbridgechi@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    RailsBridge Chicago provides free (and fun!) Ruby on Rails workshops for women
+  bio:    RailsBridge Chicago provides free (and fun!) Ruby on Rails workshops for women
   # Social networking links used in footer. Update and remove as you like.
   tumblr:         railsbridgechicago
   twitter:        RailsBridgeChi

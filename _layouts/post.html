@@ -5,6 +5,7 @@
 </head>
 <body class="post-template" itemscope itemtype="http://schema.org/WebPage">  
 {% include header.html %}
+{% assign author = site.data.authors[page.author] || site.owner %}
 <div id="main" class="content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/Blog">
     <div class="container">
         <div class="row">
@@ -35,20 +36,21 @@
                         <iframe width="940" height="529" src="//www.youtube.com/embed/{{ video_embed }}?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
                         {% endif %}
                         {{ content }}
-                        <br>
-                    {% assign tagsize = page.tags.size %}
+                    <!-- {% assign tagsize = page.tags.size %}
                     {% if tagsize != 0 %}
                     <div class="entry-tags text-center">
                     
                         <i class="icon-tags"></i>&nbsp;Tagged with {% for tag in page.tags %}<a href="{{ site.url }}/tags/index.html#{{ tag | cgi_encode }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}&nbsp;&bull;&nbsp;{% endunless %}{% endfor %}
                     
+                    keeping this in here in case we decide to display tags in the future.
+                    for now, it just adds more clutter.
                     </div>
-                    {% endif %}
+                    {% endif %} -->
                     </div>
         </div>
                     <footer class="post-footer entry-meta">
-                        {% if site.share %}{% include share.html %}{% endif %}
                         {% include signoff.html %} 
+                        {% if site.share %}{% include share.html %}{% endif %}
                         {% if site.disqus_shortname and page.comments == true %}<div id="disqus_thread"></div><!-- /#disqus_thread -->{% endif %}
                     </footer>
             </article>

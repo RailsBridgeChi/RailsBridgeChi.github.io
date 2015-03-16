@@ -1,5 +1,6 @@
-<div class="post-author text-center">                       
-	        <img src="{{site.url}}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>    
-	    <h4 class="bordered-bottom vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ site.url }}/about" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span></h4>
-	    <p>{{ site.owner.description }}</p>
+<div class="post-author bordered-bottom text-center col-md-8 col-md-offset-2">                       
+  <img src="{{site.baseurl}}/images/{{ author.avatar }}" alt="{{ author.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/>    
+  <h4 class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">By <span itemprop="name" class="fn"><a href="{{ author.personal_site }}" title="{{ site.owner.name }}'s personal site" itemprop="url">{{ author.name }}</a></span> <a href="{{ author.twitter }}"><i class="icon-twitter"></i></a>
+  </h4>
+  <p class="small">{{ author.bio }}</p>
 </div>
