@@ -16,7 +16,7 @@ published: true
 ---
 
 >&quot;A ship in port is safe; but that is not what ships are built for. Sail out to sea and do new things.&quot;
-><small><cite title="Grace Hopper">Rear Admiral Grace Hopper, programming pioneer.</cite></small>
+><small><cite title="Grace Hopper"><span class="invisible">—</span>Rear Admiral Grace Hopper, programming pioneer<span class="invisible">.</span></cite></small>
 
 Here at RailsBridge Chicago, we believe that every gosh darn woman deserves a place to safely throw herself into a new endeavor and discover the potential she holds inside herself.  We are here to be one of those places!  Hi!  We're RailsBridge Chicago, we have a new blog, and we'd like to help you learn.
 

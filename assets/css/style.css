@@ -235,6 +235,9 @@ pre {
 .lighter {
   font-weight: lighter !important;
 }
+.invisible {
+  display: none;
+}
 /* - Font size classes - */
 .small {
   font-size: 14px;
