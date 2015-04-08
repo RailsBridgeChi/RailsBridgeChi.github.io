@@ -31,7 +31,10 @@
         <i class="icon-search"></i>
     </button>
 {% endif %}
-{% if site.description %}
+<!-- {% if site.description %}
+
+Removing this for now, since the current design doesn't need a description, but leaving it in in case we want to reinstate.
+
     <div class="inner">
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
@@ -40,24 +43,19 @@
             </a>
             <h2 class="blog-description light " itemprop="description">
                 {{ site.description }}
-            </h2>
+            </h2> 
         </div>
     </div>
-    {% else %}
+    {% else %} -->
     <div class="inner">
         <div class="container">
             <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
                 
-                    <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />
-
-            <h1 class="blog-title light" itemprop="name">
-                {{ site.title }}
-            </h1>
-                
+                    <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }} Logo" />           
             </a>
         </div>
     </div>
-    {% endif %}
+    <!-- {% endif %} -->
     {% if site.animated_fins and site.triangleheader %}
     <div class="decor-wrapper">
         <svg id="header-decor" class="decor bottom" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100" preserveAspectRatio="none">

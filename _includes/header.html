@@ -28,33 +28,30 @@
     <div class="inner">
         <div class="container">
             <a class="brand light" href="{{ site.url }}" role="banner" itemprop="url">
-            <h1 class="blog-title light" itemprop="name">
-              {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
+              {% if site.logo %}
+                  <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
               {% elsif site.title %}
-              {{ site.title }}
+                  <h1 class="blog-title light" itemprop="name">{{ site.title }}</h1>
               {% endif %}
-            </h1>
-                
             </a>
-            <h2 class="blog-description light" itemprop="description">
+<!--             <h2 class="blog-description light" itemprop="description">
                 {{ page.headline }}
-            </h2>
+            </h2> -->
         </div>
     </div>
     {% else %}
     <div class="inner">
         <div class="container">
             <a class="brand" href="{{ site.url }}" role="banner" itemprop="url">
-              <h1 class="blog-title light" itemprop="name">
-                {% if site.logo %}<img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
+                {% if site.logo %}
+                    <img itemprop="logo" src="{{ site.url }}/images/{{ site.logo }}" alt="{{ site.title }}" />
                 {% elsif site.title %}
-                {{ site.title }}
+                    <h1 class="blog-title light" itemprop="name">{{ site.title }}</h1>
                 {% endif %}
-              </h1>
             </a>
-            <h2 class="blog-description light" itemprop="description">
+<!--             <h2 class="blog-description light" itemprop="description">
                 {{ site.description }}
-            </h2>
+            </h2> -->
         </div>
     </div>
     {% endif %}

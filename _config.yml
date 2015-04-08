@@ -1,6 +1,7 @@
 title:            RailsBridge Chicago
-description:      "Free (and fun!) Ruby on Rails workshops for women. Get it, girls!"
-logo:             railsbridge-chicago-logo.png
+description:      
+#"Free (and fun!) Ruby on Rails workshops for women. Get it, girls!"
+logo:             light_white.svg
 disqus_shortname: RailsBridgeChi
 # Assign a default image for your site's header and footer
 default_bg:       cover-photo.jpg
