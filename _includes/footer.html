@@ -33,6 +33,11 @@
                     <i class="icon-github"></i>
                 </a>
             </li>{% endif %}
+            {% if site.owner.meetup %}<li>
+                <a href="http://www.meetup.com/{{site.owner.meetup}}" data-toggle="tooltip" title="{{ site.owner.name}} on Meetup" target="_blank">
+                    <img src="/images/meetup.png" id="meetup-icon">
+                </a>
+            </li>{% endif %}
             {% if site.owner.tumblr %}<li>
                 <a href="http://{{site.owner.tumblr}}.tumblr.com/" data-toggle="tooltip" title="{{ site.owner.name}} on Tumblr" target="_blank">
                     <i class="icon-tumblr"></i>
@@ -47,9 +52,9 @@
             {% for link in site.links %}
             <li>
                 {% if link.external %}
-                    <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+                    <a href="{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
                 {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>&nbsp;&bull;
+                    <a href="{{ site.url }}{{ link.url }}">{% if link.icon %}<i class="icon-{{ link.icon }}"></i>{% else %}{{ link.title }}{% endif %}</a>
                 {% endif %} 
             </li>
             {% endfor %}

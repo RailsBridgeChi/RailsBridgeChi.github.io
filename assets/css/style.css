@@ -76,6 +76,9 @@ h6 {
   text-transform: uppercase;
   margin: 0;
 }
+.header-icon {
+  height: 70px;
+}
 /* - Links - */
 a {
     text-decoration: none;
@@ -414,6 +417,9 @@ blockquote:before {
 }
 .social-icons a:hover {
   background-color: rgba(255, 255, 255, 0.15);
+}
+#meetup-icon {
+  height: 18px;
 }
 .overlay:after {
   background-color: rgba(0, 0, 0, 0.65);
@@ -3261,6 +3267,7 @@ img.mfp-img {
 }
 .menu-items li {
   display: inline-block;
+  padding: 0 8px;
 }
 .notice {
     padding: .5em 1em;

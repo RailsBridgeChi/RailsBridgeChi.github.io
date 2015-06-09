@@ -34,6 +34,7 @@ owner:
   twitter:        RailsBridgeChi
   facebook:       RailsBridgeChi
   github:         RailsBridgeChi
+  meetup:         RailsBridgeChicago
   stackexchange:  
   linkedin:       
   instagram:      
@@ -59,7 +60,7 @@ links:
   - title: Blog
     url: /blog
     external: false
-    icon: home
+    icon: rss
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Chicago
